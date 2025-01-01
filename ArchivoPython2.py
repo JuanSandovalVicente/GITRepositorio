@@ -6,6 +6,14 @@
 #CONSTANTES de programa
 ROJO = "\033[91m"  # Código ANSI para texto rojo
 NEGRITA = "\033[1m" # Código ANSI para negrita
+AZUL_CLARO = "\033[34m" #Este texto es de color azul claro"
+AZUL_OSCURO = "\033[94m" #Este texto es de color azul oscuro"
+AMARILLO = "\033[33m" #Este texto es de color amarillo"
+AMARILLO_OSCURO = "\033[93m" #Este texto es de color amarillo oscuro"
+VERDE = "\033[32m" #Este texto es de color verde"
+VERDE_OSCURO = "\033[92m" #Este texto es de color verde oscuro"
+
+CURSIVA = "\033[3m" # Código ANSI para cursiva
 RESET = "\033[0m"   # Código ANSI para resetear el formato
 
 """

@@ -63,9 +63,6 @@ print (f"Despues del for queda la variable cadena asi: {cadena}")
 cadena = " ".join(str(cadena))
 print (f"Usando la funcion de texto .join, agregamos un espacio en blanco por cada caracter de Cadena {cadena}")
 
-mi_lista = [1, 2, 3, 4, 5]
-cadena = " ".join(str(elemento) for elemento in mi_lista)
-print(cadena)
 
 
 #while: Repite un bloque de código mientras se cumpla una condición.
