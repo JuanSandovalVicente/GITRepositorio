@@ -2,8 +2,13 @@
     #2.1 Operadores Aritméticos:
     #2.2 Operadores de Comparación:
     #2.3 Operadores Logicos
-"""
 
+#CONSTANTES de programa
+ROJO = "\033[91m"  # Código ANSI para texto rojo
+NEGRITA = "\033[1m" # Código ANSI para negrita
+RESET = "\033[0m"   # Código ANSI para resetear el formato
+
+"""
 #2.1 Operadores Aritméticos:
 
 + (suma)
@@ -15,6 +20,8 @@
 ** (exponenciación)
 """
 
+
+
 a = 10
 b = 3
 suma = a + b      # 13
@@ -25,11 +32,14 @@ division_entera = a // b # 3
 modulo = a % b      # 1
 potencia = a ** b    # 1000
 
+#\033[1m: Es el código de escape ANSI para activar el modo de texto en negrita.
+#\033[0m: Es el código de escape ANSI para restablecer el formato a normal (sin negrita). Es importante incluirlo para que el resto del texto no aparezca también en negrita.
+
 # usando f-string
 print("usando f-string")
 print(f"Operadores Aritméticos:")
-print(f"La variable a = : {a} la variable b = :{b}")
-print(f"La suma = a + b: {suma}")
+print(f"{NEGRITA}La variable a = {RESET} {ROJO} {a} {RESET} {NEGRITA}la variable b = :{ROJO} {b} {RESET}")
+print(f"{NEGRITA}La suma = a + b: {ROJO}{suma}{RESET}")
 print(f"La resta = a - b: {resta}")
 print(f"La multiplicacion = a * b: {multiplicacion}")
 print(f"La division = a / b: {division}")
