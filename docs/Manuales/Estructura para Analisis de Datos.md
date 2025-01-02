@@ -2,12 +2,6 @@
 
 Este es un ejemplo de cómo utilizar Python para analizar datos en un archivo Markdown.
 
-```python
-print("Hola")
-
-# Anan
-
-
 nombre_del_proyecto/
 ├── .gitignore                # Archivo para ignorar archivos que no deben ser versionados
 ├── README.md                 # Descripción del proyecto (obligatorio)
