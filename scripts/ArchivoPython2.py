@@ -25,7 +25,7 @@ RESET = "\033[0m"   # Código ANSI para resetear el formato
 / (división)
 // (división entera)
 % (módulo o resto)
-** (exponenciación) 
+** (exponenciación)
 """
 
 
