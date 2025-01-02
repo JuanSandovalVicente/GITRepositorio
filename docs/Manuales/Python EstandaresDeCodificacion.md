@@ -1,15 +1,15 @@
-"""
+# Estandares de Codificación en Python
 Los estándares de codificación de Python se basan principalmente en la guía de estilo PEP 8 (Python Enhancement Proposal 8). PEP 8 proporciona un conjunto de recomendaciones sobre cómo escribir código Python de forma legible y consistente. Seguir PEP 8 facilita la colaboración entre programadores y mejora el mantenimiento del código.
 
 Aquí te resumo los aspectos más importantes de PEP 8:
-"""
+
 #1. Indentación:
-"""
+
 Usar 4 espacios por nivel de indentación.
 No mezclar espacios y tabulaciones.
 Continuar líneas largas con una indentación adicional.
 Ejemplo:
-"""
+
 # Correcto
 def mi_funcion_larga(
         parametro_uno, parametro_dos,
