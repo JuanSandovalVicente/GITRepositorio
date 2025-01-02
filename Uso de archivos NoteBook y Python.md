@@ -22,6 +22,8 @@ Limitaciones:
 Menos adecuados para aplicaciones complejas: Los notebooks pueden volverse difíciles de manejar en proyectos grandes y complejos con muchas dependencias y lógica compleja.
 Dificultad para el control de versiones con Git (inicialmente): El formato .ipynb es un archivo JSON que puede dificultar la revisión de cambios con Git, aunque existen herramientas para mejorar este aspecto (como nbdime).
 No son ideales para la producción: No son la mejor opción para desplegar aplicaciones en producción, aunque se pueden convertir a scripts .py o usar herramientas como Papermill.
+
+
 Archivos .py (Scripts de Python):
 
 Ideales para:

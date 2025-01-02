@@ -25,7 +25,7 @@ RESET = "\033[0m"   # Código ANSI para resetear el formato
 / (división)
 // (división entera)
 % (módulo o resto)
-** (exponenciación)
+** (exponenciación) 
 """
 
 
@@ -45,7 +45,7 @@ potencia = a ** b    # 1000
 
 # usando f-string
 print("usando f-string")
-print(f"Operadores Aritméticos:")
+print(f"Operadores Aritmeticos:")
 print(f"{NEGRITA}La variable a = {RESET} {ROJO} {a} {RESET} {NEGRITA}la variable b = :{ROJO} {b} {RESET}")
 print(f"{NEGRITA}La suma = a + b: {ROJO}{suma}{RESET}")
 print(f"La resta = a - b: {resta}")
@@ -72,7 +72,7 @@ x != y  # True
 x < y   # True
 
 print("")
-print("Operadores de Comparación:")
+print("Operadores de Comparacion:")
 print(f"La variable x = : {x} la variable y = :{y}")
 print(f"Comparar x == y: {x == y}")
 print(f"Comparar x != y: {x != y}")
