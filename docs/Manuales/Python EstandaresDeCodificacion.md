@@ -11,11 +11,11 @@ Continuar líneas largas con una indentación adicional.
 Ejemplo:
 
 # Correcto
+
 def mi_funcion_larga(
-        parametro_uno, parametro_dos,
-        parametro_tres, parametro_cuatro):
+    parametro_uno, parametro_dos,parametro_tres, parametro_cuatro):
     print("Hola")
-"""
+
 # Incorrecto (mezcla espacios y tabulaciones)
 def otra_funcion():
 \tprint("Adiós") #tabulacion
