@@ -1,0 +1,3 @@
+
+Ejecutar en terminal para activar entono virtual del proyecto
+.venv\Scripts\activate
