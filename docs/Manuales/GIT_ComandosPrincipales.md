@@ -34,7 +34,7 @@ Un diagrama que representa el flujo de trabajo básico con Git podría ser el si
 
 
 
-![Captura de pantalla](imagenes/Git_ColaboracionEquipov1.jpeg)
+![Captura de pantalla](imagenes/Git_ColaboracionEquipov1.jpg)
 
 ### Explicación del gráfico:
 
